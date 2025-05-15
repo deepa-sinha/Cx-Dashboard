@@ -91,6 +91,7 @@ aside {
             color: #9197B3;
             border-radius: 10px;
             transition: background 0.2s ease-in-out;
+            cursor: pointer;
 
             svg {
                 width: 18px;
@@ -150,6 +151,7 @@ aside {
                 text-align: center;
                 color: #4925E9;
                 border: none;
+                cursor: pointer;
             }
         }
 
@@ -306,6 +308,9 @@ main {
                     img {
                         margin-left: -12px;
                     }
+                    img:hover{
+                        transform: scale(1.1);
+                    }
                 }
             }
         }
@@ -360,6 +365,10 @@ main {
                 line-height: 100%;
                 letter-spacing: -1%;
                 text-align: center;
+                cursor: pointer;
+            }
+            .addbtn:active {
+                background: #5a32ea75;
             }
 
             .mobile-addbtn {
@@ -385,6 +394,7 @@ main {
                 background: #F9FBFF;
                 border-radius: 10px;
                 gap: 10px;
+                cursor: pointer;
 
                 p {
                     font-family: Poppins;
@@ -403,6 +413,7 @@ main {
 
             .mobile-sortby {
                 display: none;
+                cursor: pointer;
             }
         }
 
@@ -439,6 +450,7 @@ main {
                         font-size: 14px;
                         line-height: 100%;
                         letter-spacing: -1%;
+                        cursor: pointer;
                     }
 
                     .active {
@@ -487,6 +499,7 @@ main {
                     line-height: 100%;
                     letter-spacing: -1%;
                     color: #404B52;
+                    cursor: pointer;
                 }
 
                 button:hover, button:active {
@@ -672,6 +685,7 @@ main {
                             width: 16px;
                             height: 25px;
                             border-radius: 50%;
+                            cursor: pointer;
                         }
                     }
                 }
