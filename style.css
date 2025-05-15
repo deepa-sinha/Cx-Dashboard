@@ -381,10 +381,17 @@ main {
                 background: #F9FBFF;
                 border-radius: 10px;
                 gap: 10px;
+                padding-left: 5px;
+
+                img {
+                    width: 10%;
+                }
     
                 input {
+                    width: 80%;
                     background: none;
                     border: none;
+                    outline: none;
                 }
             }
 
@@ -639,14 +646,16 @@ main {
                     height: 24px;
                     background: #F9FBFF;
                     border-radius: 50%;
+                    padding-left: 5px;
 
-                    svg {
-                        width: 16px;
-                        height: 16px;
+                    img {
+                        width: 10%;
                     }
         
                     input {
                         display: none;
+                        width: 80%;
+                        outline: none;
                     }
                 }
                 .sortby {
