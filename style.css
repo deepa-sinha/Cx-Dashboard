@@ -653,16 +653,11 @@ main {
                     height: 24px;
                     background: #F9FBFF;
                     border-radius: 50%;
-                    padding-left: 5px;
-
                     img {
-                        width: 10%;
+                        width: 100%;
                     }
-        
                     input {
                         display: none;
-                        width: 80%;
-                        outline: none;
                     }
                 }
                 .sortby {
